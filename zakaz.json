@@ -1,0 +1,83 @@
+[
+  {
+    "id": "1",
+    "title": "Cayman 718",
+    "vendor_code": "111",
+    "description": "Модели 718 созданы для жизни в спортивном стиле",
+    "price": 55000000,
+    "img": "https://media.porsche.com/mediakit/718-cayman-gt4-rs/00-photos/media-drive/718-Cayman-GT4-RS-GT-silbermetallic-S-GO1306/image-thumb__47840__mk2-modal-item/porschecayman_estoril07005_high_1.jpg"
+  },
+  {
+    "id": "2",
+    "title": "Boxster 718",
+    "vendor_code": "222",
+    "description": "Модели 718 созданы для жизни в спортивном стиле",
+    "price": 20000000,
+    "img": "https://foto.carexpert.ru/img/foto1680/porsche/porsb118.jpg"
+  },
+  {
+    "id": "3",
+    "title": "Cayman 718 GT4",
+    "vendor_code": "333",
+    "description": "Модели 718 созданы для жизни в спортивном стиле",
+    "price": 65000000,
+    "img": "https://www.topgear.com/sites/default/files/2022/03/1-Porsche-Cayman-GT4-RS.jpg"
+  },
+  {
+    "id": "4",
+    "title": "Carrera T 918",
+    "vendor_code": "444e",
+    "description": "911 Carrera T — это приверженность лаконичности. Сознательный отказ от большего ",
+    "price": 40000000,
+    "img": "https://pic.rutubelist.ru/video/4f/eb/4feb1e5933407cd2ecd630f30dd8f475.jpg"
+  }
+  ,
+  {
+    "id": "5",
+    "title": "GT3 911 RS",
+    "vendor_code": "4445e",
+    "description": "Познакомьтесь с новым 911 GT3 RS в его оптимальной форме",
+    "price": 4000000,
+    "img": "https://a.d-cd.net/Kv9RgpUAnBLt2lYTwuNBAD079tc-1920.jpg"
+  },
+  {
+    "id": "6",
+    "title": "Taycan",
+    "vendor_code": "4446e",
+    "description": "С новыми моделями Taycan Sport Turismo чувство эйфории можно испытывать каждый день",
+    "price": 100000000,
+    "img": "https://w.forfun.com/fetch/6a/6a2342a98bb87c3510dfe089ea6707b4.jpeg"
+  },
+  {
+    "id": "7",
+    "title": "Panamera",
+    "vendor_code": "4447e",
+    "description": "Panamera создан для тех, кто свободен и позволяет себе следовать своим инстинктам",
+    "price": 700000000,
+    "img": "https://kuznitsaspb.ru/wp-content/uploads/9/3/0/930559c960b6fccabbb02c8fc23a6384.jpeg"
+  },
+  {
+    "id": "8",
+    "title": "Macan",
+    "vendor_code": "4448e",
+    "description": "Молодой, динамичный и городской, с обширной базовой комплектацией, уникальными элементами дизайна",
+    "price": 80000000,
+    "img": "https://top-car.ru/upload/gallery/big/199b04d44e2457d406b64425ffa16b38.jpg"
+  },
+  {
+    "id": "9",
+    "title": "Cayenne",
+    "vendor_code": "444e",
+    "description": "Воплощая в себе типичный дизайн Porsche, Porsche Cayenne подходит как для поездок в офис, так и для движения по бездорожью и по гоночной трассе",
+    "price": 450000000,
+    "img": "https://arhmez.ru/wp-content/uploads/6/c/d/6cd2072f12fea1640e35abbeaf113d99.jpeg"
+  },
+{
+    "id": "10",
+    "title": "Cayenne Turbo GT",
+    "vendor_code": "444ef",
+    "description": "Cayenne Turbo GT обладает всеми необходимыми предпосылками для того, чтобы с самого начала занять лидирующие позиции",
+    "price": 4890000000,
+    "img": "https://autoreview.ru/images/gallery/%D0%9D%D0%BE%D0%B2%D0%BE%D1%81%D1%82%D0%B8/2021/June/30/porsche-cayenne-turbo-gt8.jpeg"
+  }
+]
