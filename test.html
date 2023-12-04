@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Тест драйв</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <link href="https://getbootstrap.com/docs/5.3/assets/css/docs.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark p-3">
+    <div class="container-fluid">
+      <a href="https://porsche.ru/index.html"><img src="https://static.tildacdn.com/tild6661-3434-4635-b231-613237373735/5.jpg" width="150px"></a>
+      <a class="navbar-brand"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class=" collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav ms-auto ">
+          <li class="nav-item">
+            <a class="nav-link mx-2 " aria-current="page" href="./index.html">Главная</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link mx-2" href="./catalog.html">Каталог</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link mx-2" href="./zakaz.html">Предварительный заказ</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link mx-2 active" href="./test.html">Тест драйв</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    </nav>
+
+<section class="test-drive-box">
+        <div class="container">
+                    <h3 class="third-title">Записаться на тест драйв</h3>
+                    <form action="https://www.yandex.ru/search?" method="get" id="form" name="form" target="_blank">
+                        <div class="form-group">
+    <label for="exampleFormControlInput1"><b>Имя</b></label>
+    <input type="text" required name= "name" class="form-control" id="exampleFormControlInput2" value="Иван" placeholder="Иван">
+  </div>
+  <div class="form-group">
+    <label for="exampleFormControlInput1"><b>Email</b></label>
+    <input type="text" required name= "email" class="form-control" id="exampleFormControlInput1" value="abc@mail.ru" placeholder="name@example.com">
+  </div>
+                        <div>
+          <label for="exampleFormControlInput1"><b>Ваш возраст</b></label>
+      <input type="number" placeholder="Age" required name="age" value="20">
+      </div>
+  <div class="form-group">
+    <label for="exampleFormControlSelect1"><b>Модели</b></label>
+    <select class="form-control" id="exampleFormControlSelect1" required name="model">
+      <option>718</option>
+      <option>911</option>
+      <option>Taycan</option>
+      <option>Panamera</option>
+      <option>Macan</option>
+        <option>Cayenne</option>
+    </select>
+  </div>
+  <div class="form-group">
+    <label for="exampleFormControlSelect2"><b>Кузов</b></label>
+    <select multiple class="form-control" id="exampleFormControlSelect2" required name="kyzov">
+      <option>Купе</option>
+      <option>Кабриолет</option>
+      <option>Внедорожник</option>
+      <option>Спортивный седан</option>
+      <option>Спорт-туризмо</option>
+    </select>
+  </div>
+  <div class="form-group">
+    <label for="exampleFormControlTextarea1"><b>Дополнительные пожелания</b></label>
+    <textarea class="form-control" id="exampleFormControlTextarea1" required rows="3" name="dop"></textarea>
+  </div>
+                        <b>Откуда Вы узнали о нас?</b>
+      <div>
+        <input type="radio" name="nedaleko"> Находитесь недалеко от дома<br>
+       <input type="radio" name="reklama"> Увидел рекламу <br>
+       <input type="radio" name="sovet"> Посоветовали знакомые/родственники<br>
+       <input type="radio" name="tsena" > Оптимальное соотношение цены и качества<br>
+      </div>
+    <div class="form-check">
+            <label class="form-check-label" for="exampleCheck1"><b>Согласны с условиями</b></label>
+    <input type="checkbox" class="form-check-input" id="exampleCheck1" name="check">
+  </div>
+  <button type="submit" class="btn btn-primary mb-2" onclick="submitForm()">Submit</button>
+</form>
+                </div>
+    </section>
+
+</body>
+</html>
