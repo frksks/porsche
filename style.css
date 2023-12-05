@@ -4,14 +4,6 @@
     font-weight: 700;
 }
 
-.hero-box{
-    padding-top: 80px;
-    width: 1000px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-
 .hero-text{
     font-size: 20px;
     margin-top: 20px;
@@ -29,19 +21,11 @@
     font-weight: 700;
     color: #111;
 }
-.car{
-    max-width: 300px;
-}
+
 .third-title{
     font-size: 32px;
     color: #111;
     font-weight: 700;
-}
-.test-drive-box{
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
 }
 .h5{
 color: black;
